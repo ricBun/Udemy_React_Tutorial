@@ -31,7 +31,7 @@ const burger = (props) => {
     }
   }
 
-  if (ingredients.length == 0) {
+  if (ingredients.length === 0) {
     ingredients.push(
       <p key="addIngredientMessage">Please start adding ingredients!</p>
     );
